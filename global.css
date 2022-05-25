@@ -5,6 +5,15 @@ html, body {
 	height: 100%;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
 body {
 	margin: 0;
 	padding: .8rem;
@@ -12,20 +21,41 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Cantarell", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "sans-serif";
 }
 
-a {
-	color: white;
-	text-decoration: none;
+footer {
+	color: #656565;
+	text-align: center;
+	bottom: 0;
 }
 
-a:hover {
-	border-style: solid;
-	border-width: .1rem;
-	border-color: white;
-}
-.off:hover {
-	border-style: none;
-}
-a:visited {
+h1 {
+	margin-right: auto;
+	text-align: center;
 	color: white;
-	text-decoration: none;
+	font-size: 4em;
+	font-weight: 300;
+}
+
+li {
+	padding: .1em;
+}
+
+@media (min-width: 640px) {
+	main {
+		max-width: none;
+	}
+}
+
+main {
+	text-align: center;
+	padding: 1em;
+	max-width: 240px;
+	margin: 0 auto;
+	width: 66%;
+	height: 66vh;
+}
+
+ul {
+	list-style: none;
+	font-size: 1.2em;
+	padding: .4em;
 }
