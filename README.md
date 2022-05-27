@@ -1,2 +1,2 @@
-# [MaDr](https://MaDr.io) Cloud Front-end
-#### Build-only version.
+# MaDr.io
+[MaDr](https://MaDr.io) Cloud Front-end
