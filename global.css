@@ -10,10 +10,11 @@ body {
 	margin: 0;
 	padding: .8rem;
 	box-sizing: border-box;
+	
 }
 
 footer {
-	color: #6a6c6e;
+	color: #656565;
 	text-align: center;
 	bottom: 0;
 }
